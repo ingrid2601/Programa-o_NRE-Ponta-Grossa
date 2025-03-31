@@ -3,6 +3,9 @@
 
 :root {
     --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
 }
 
 body {
@@ -65,10 +68,13 @@ section {
     height: 3em;
     /* Convertido para em */
     align-content: center;
+
 }
+
 .display-4 {
     text-shadow: -5px 5px var(--laranja-claro);
 }
+
 
 #tropicalia {
     position: relative;
@@ -80,6 +86,7 @@ section {
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
+
 #tropicalia .container {
     display: flex;
     align-items: center;
@@ -89,25 +96,32 @@ section {
     /* Garante que o conteúdo fica acima das imagens do background */
 }
 
+
 h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
     color: var(--laranja-claro);
 }
+
 #galeria {
     background-color: #FAF4F4;
+
 }
+
 .fundo-galeria {
     background: url('img/flor-bottom-direita.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
+
 #contato {
     background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
+
 }
+
 .formulario {
     background-color: #ffffff;
     padding: 2rem;
@@ -129,24 +143,29 @@ h2 {
 .form-control {
     background-color: #F1EDEF;
 }
+
 .menu-acessibilidade {
     position: fixed;
     top:2rem;
     right:20px;
     z-index:1000;
     }
+
 .rotacao-botao{
     transform: rotate (-90deg);
     transform-origin: right center;
 }
+
 .opcoes-acessibilidade{
     margin-top:10px;
     display: flex;
     flex-direction: column;
 }
+
 .opcoes-acessibilidade button{
     margin-bottom: 5px;
 }
+
 .apresenta-lista{
     display: none;
 }
